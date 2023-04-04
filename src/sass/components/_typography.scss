@@ -1,0 +1,11 @@
+
+
+.title {
+    font-size: 2.25rem;
+    &--blue {
+        color: $secondary-blue;
+    }
+    &--white {
+        color: $primary-white;
+    }
+}

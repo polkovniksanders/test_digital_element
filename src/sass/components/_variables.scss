@@ -1,0 +1,20 @@
+$breakpoints: (
+    xsmall:(min-width:460px),
+    small:(min-width:640px),
+    medium:(min-width:800px),
+    large:(min-width:1024px),
+    xlarge:(min-width:1200px),
+    xxlarge:(min-width:1440px),
+);
+
+
+$primary-blue: #5A98D0;
+$secondary-blue: #316099;
+$title-blue: rgba(31, 63, 104, 1);
+$primary-white: #FFFFFF;
+
+$rounded: 10px;
+
+$fancy-border: 1px solid $primary-white;
+
+

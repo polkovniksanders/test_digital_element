@@ -1,0 +1,42 @@
+.capability {
+  &--wrapper {
+    display: flex;
+  }
+  &--item {
+    background: $primary-white;
+    padding: 3rem;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: $rounded;
+    & img {
+      margin-bottom: 2rem;
+    }
+    & h4 {
+      color: $title-blue;
+      font-size: 20px;
+      margin-bottom: 1rem;
+    }
+    & p {
+      color: $title-blue;
+      opacity: 0.6;
+      margin-bottom: 2rem;
+    }
+    &-more {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: .75rem;
+      cursor: pointer;
+
+      & a {
+        letter-spacing: 0.05em;
+        color: $primary-blue;
+        text-decoration: none;
+      }
+
+      & img {
+        margin-left: 1rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

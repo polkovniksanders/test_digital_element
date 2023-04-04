@@ -1,0 +1,26 @@
+@import '../../node_modules/normalize.css/normalize.css';
+@import 'components/reset';
+@import 'components/variables';
+@import 'components/mixins';
+@import 'components/_typography';
+@import 'components/_header.scss';
+@import 'components/_capability.scss';
+@import 'components/_clients.scss';
+@import 'components/_btn.scss';
+
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.content {
+    padding: 0 6rem;
+}
+
+section {
+    padding: 6rem 0
+}

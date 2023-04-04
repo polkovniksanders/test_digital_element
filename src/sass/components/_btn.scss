@@ -1,0 +1,15 @@
+.btn {
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  border-radius: $rounded;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &--main {
+    color: $primary-white;
+    background: $primary-blue;
+    padding: 15px 48px;
+  }
+}
