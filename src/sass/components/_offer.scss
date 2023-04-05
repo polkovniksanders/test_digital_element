@@ -1,0 +1,30 @@
+.offer {
+  background: $secondary-blue;
+  &--content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &-text {
+      width: 50%;
+      & h2 {
+        margin-bottom: 1rem;
+      }
+      & p {
+        color: $primary-white;
+        line-height: $text-line-height;
+      }
+    }
+    &-action {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.hr {
+  border: 1px solid $primary-white;
+  margin-top: 6rem;
+  margin-right: 6rem;
+  opacity: .2;
+}

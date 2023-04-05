@@ -1,8 +1,14 @@
 .capability {
+  & h2 {
+    margin-bottom: 1.5rem;
+  }
   &--wrapper {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
   &--item {
+    width: 32%;
     background: $primary-white;
     padding: 3rem;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
@@ -14,11 +20,13 @@
       color: $title-blue;
       font-size: 20px;
       margin-bottom: 1rem;
+      line-height: 30px;
     }
     & p {
       color: $title-blue;
       opacity: 0.6;
       margin-bottom: 2rem;
+      line-height: $text-line-height;
     }
     &-more {
       display: flex;

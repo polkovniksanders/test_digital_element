@@ -1,0 +1,67 @@
+@media all and (max-width: 768px) {
+
+  .content {
+    padding: 0 1.5rem;
+  }
+
+  .header {
+    &--title {
+      width: 100%;
+
+      & h1 {
+        font-size: calc(2rem + 2vw);
+      }
+
+      & p {
+        margin-bottom: 3rem;
+      }
+    }
+
+    &--content {
+      padding: 0 1.5rem;
+      flex-direction: column;
+    }
+
+    &--image {
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .capability {
+    &--wrapper {
+      flex-direction: column;
+    }
+    &--item {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      &:last-child {
+        margin-bottom: 0
+      }
+    }
+  }
+
+  .clients {
+    &--subtitle {
+      margin-bottom: 3rem;
+      flex-direction: column;
+      & h2 {
+        margin-left: 3rem;
+        margin-bottom: 1.25rem;
+      }
+    }
+  }
+
+  .offer{
+    &--content{
+      flex-direction: column;
+      &-text {
+        width: 100%;
+        & p {
+          margin-bottom: 1.5rem
+        }
+      }
+    }
+  }
+
+}

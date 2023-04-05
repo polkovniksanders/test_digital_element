@@ -86,7 +86,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/templates/template.html",
       filename: 'index.html',
-      title: "New Project",
+      title: "test Digital Element",
       minify: {
         collapseWhitespace: true,
         removeComments: true,

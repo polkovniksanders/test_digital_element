@@ -1,0 +1,22 @@
+.input {
+  padding: 1rem 1.5rem;
+  border-radius: $rounded;
+  border: 1px solid $secondary-blue;
+  &--wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    & label {
+      margin-bottom: .25rem;
+      color: $title-blue;
+    }
+  }
+}
+
+.error {
+  background: red;
+  color: $primary-white;
+  & p {
+    padding:.25rem 1rem
+  }
+}

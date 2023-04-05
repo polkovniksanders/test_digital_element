@@ -3,11 +3,12 @@
   outline: 0;
   font-size: 1rem;
   border-radius: $rounded;
+  width: 220px;
   &:hover {
     cursor: pointer;
   }
 
-  &--main {
+  &--primary {
     color: $primary-white;
     background: $primary-blue;
     padding: 15px 48px;

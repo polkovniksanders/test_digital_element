@@ -1,3 +1,8 @@
 .footer {
-
+  padding: 0 0 3rem;
+  background: $secondary-blue;
+  & p {
+    color: $primary-white;
+    opacity: .2;
+  }
 }

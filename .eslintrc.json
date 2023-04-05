@@ -1,0 +1,39 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+
+    "plugins": [ "html" ],
+    "settings": {
+        "html/html-extensions": [".html", ".we"],
+        "html/javascript-tag-names": ["script", "customscript"],
+        "html/report-bad-indent": "error",
+        "html/indent": "0"
+    },
+
+    "rules": {
+        "semi" : [1, "never"],
+        "spaced-comment": 0,
+        "space-before-function-paren": 0,
+        "jsx-quotes": 0,
+        "no-class-assign": 0,
+        "brace-style": 0,
+        "no-return-assign": 0,
+        "no-trailing-spaces": 0,
+        "curly": [0, "multi"],
+        "template-curly-spacing" : "off",
+        "indent": ["warn", 2, {
+            "ignoredNodes": ["TemplateLiteral"],
+            "SwitchCase": 1
+        }],
+        "comma-dangle": ["warn", "always-multiline"],
+        "array-bracket-spacing": ["error", "always"]
+    }
+}
